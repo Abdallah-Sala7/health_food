@@ -726,13 +726,13 @@ nav .nav-contint .nav-right form .form-group input:not(:placeholder-shown) + a .
 }
 
 .deal-contint .deal-item{
-  width: 60%;
+  width: 50%;
   display: flex;
   align-items: center;
 }
 
 .deal-contint .deal-item .deal-img{
-  width: 50%;
+  width: 55%;
   position: relative;
 }
 .deal-contint .deal-item .deal-img .deal-sale{
@@ -752,10 +752,10 @@ nav .nav-contint .nav-right form .form-group input:not(:placeholder-shown) + a .
 }
 
 .deal-contint .deal-item .deal-data{
-  width: 40%;
+  width: 45%;
   display: flex;
   flex-direction: column;
-  padding: 0 40px;
+  padding: 0 30px;
 }
 
 .deal-contint .deal-item .deal-data .deal-icon{
@@ -811,6 +811,7 @@ nav .nav-contint .nav-right form .form-group input:not(:placeholder-shown) + a .
   color: var(--secondary);
   margin-bottom: 20px;
   outline-color: var(--primary);
+  padding: 10px 40px 10px 20px;
 }
 
 .deal-contint .deal-item .deal-data .custum-btn:hover{
@@ -831,6 +832,8 @@ nav .nav-contint .nav-right form .form-group input:not(:placeholder-shown) + a .
 .deal-contint .deal-item .deal-data .custum-btn span{
   background-color: var(--primary);
   transition: 0.3S ease-in-out;
+  width: 30px;
+  height: 30px;
 }
 .deal-contint .deal-item .deal-data .custum-btn:hover span{
   background-color: var(--white);
@@ -865,5 +868,44 @@ nav .nav-contint .nav-right form .form-group input:not(:placeholder-shown) + a .
 .deal-contint .deal-item .deal-data .deal-time .deal-time-box span:last-child{
   font-weight: 500;
   color: var(--dark-gray);
+  text-transform: capitalize;
+}
+
+/***************feature***************** */
+
+.feature{
+  background: url('../images/back_7.webp') center / cover no-repeat;
+  padding: 100px 0;
+  border-radius: 30px;  
+}
+.feature-contint{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feature-contint .feature-item{
+  width: calc(100% /4.5);
+  display: flex;
+  align-items: center;
+}
+
+.feature-contint .feature-item .feature-img{
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+}
+
+.feature-contint .feature-item .feature-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.feature-contint .feature-item .feature-title{
+  font-size: 1.5rem;
+  color: var(--white);
+  font-weight: 500;
   text-transform: capitalize;
 }
